@@ -1,0 +1,22 @@
+.modal-form-term-desc {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    &::before {
+      outline: none;
+      display: block;
+      content: "";
+      width:16px;
+      height:16px;
+      outline: 1px solid #000;
+      margin-right: 10px;
+      margin-left: 15px;
+      .modal-form-term:checked + & {
+        background-image: url(../images/Vector.svg);
+        background-color: var(--accent-color);
+          
+      }
+    }
+}
+
+

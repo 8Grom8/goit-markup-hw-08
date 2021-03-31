@@ -1,0 +1,16 @@
+.backdrop {
+  position:fixed;
+  top:0;
+  left:0;
+  width: 200vh;
+  height: 200vh;
+  transition: all 1000ms linear;
+  background-color: rgba(0, 0, 0, 0.2);
+    
+}
+.form-term-signature {
+  text-decoration-line: underline;
+  color:var(--accent-color);
+  margin-left: 3px;
+  
+}
